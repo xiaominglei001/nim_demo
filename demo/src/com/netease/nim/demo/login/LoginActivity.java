@@ -284,7 +284,7 @@ public class LoginActivity extends UI implements OnKeyListener {
         loginRequest = NimUIKit.doLogin(new LoginInfo(account, token), new RequestCallback<LoginInfo>() {
             @Override
             public void onSuccess(LoginInfo param) {
-                LogUtil.i(TAG, "login success");
+                LogUtil.i(TAG, "登陆 成功");
 
                 onLoginDone();
 
